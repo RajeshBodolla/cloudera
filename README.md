@@ -54,6 +54,8 @@ SSH_PASS=cloudera123
 SSH_PORT=22
 ```
 
+`You may have to specify the credentials for the repo url`
+
 Or for key-based auth:
 
 ```bash
