@@ -28,7 +28,7 @@ bash cdp_autoscale_core.sh <scaleup|scaledown> <count> [password|key] [run|resum
 If a step fails, its name is stored in `autoscale.state`. Re-running with `true` resumes from that step.
 
 ```bash
-bash cdp_autoscale_core.sh scaleup password run
+bash cdp_autoscale_core.sh scaleup password resume true
 ```
 
 ## Host File
